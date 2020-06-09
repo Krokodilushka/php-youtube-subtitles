@@ -13,5 +13,3 @@ print_r($availableLanguages);
 // en
 $subsUrl = $youtubeSubtitles->getUrl($availableLanguages[0]['code']);
 echo '$subsUrl1: ' . $subsUrl . "\n";
-
-print_r(file_get_contents($subsUrl));
