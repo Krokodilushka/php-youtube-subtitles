@@ -25,7 +25,6 @@ class YoutubeSubtitles
         $res = [];
         if (!empty($this->captions)) {
             foreach ($this->captions as $caption) {
-                print_r($caption);
                 $res[] = [
                     'code' => $caption->languageCode,
                     'name' => $caption->name->simpleText
